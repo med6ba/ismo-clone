@@ -1,0 +1,28 @@
+/* Color palette */
+:root{
+    --bg : #e0e0e0;
+    --text: #1a1a1a;
+    --primary: #0059a1;
+    --secondary: #00854b;
+}
+
+/* Import Poppins font */
+@font-face {
+    font-family: pr;
+    src: url(../fonts/pr.ttf);
+}
+@font-face {
+    font-family: pm;
+    src: url(../fonts/pm.ttf);
+}
+@font-face {
+    font-family: pb;
+    src: url(../fonts/pb.ttf);
+}
+
+/* Initialisation du page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
