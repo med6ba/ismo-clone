@@ -30,7 +30,7 @@
 body {
   background-color: var(--bg) !important;
   font-family: pm !important;
-  height: 100%;
+  min-height: 100dvh;
 }
 
 nav {
@@ -49,6 +49,10 @@ nav ul li a:hover {
   color: var(--primary) !important;
   transition: 0.3s all ease;
 }
+
+
+
+
 
 /* #sec-1 {
   display: flex;
