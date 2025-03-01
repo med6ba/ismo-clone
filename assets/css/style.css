@@ -33,10 +33,6 @@ body {
   min-height: 100dvh;
 }
 
-nav {
-  min-height: 10vh;
-}
-
 nav ul li a {
   color: var(--text) !important;
   font-size: 1.1rem !important;
@@ -45,23 +41,22 @@ nav ul li a {
   transition: 0.3s all ease;
 }
 
+.active{
+    color: var(--primary) !important;
+}
+
 nav ul li a:hover {
   color: var(--primary) !important;
   transition: 0.3s all ease;
 }
 
-
-
-
-
-/* #sec-1 {
+main {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 74.2vh;
 }
-
+/* 
 #sec-1 h1 {
   font-family: peb;
   color: var(--primary);
