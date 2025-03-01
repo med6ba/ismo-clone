@@ -1,28 +1,125 @@
 /* Color palette */
-:root{
-    --bg : #e0e0e0;
-    --text: #1a1a1a;
-    --primary: #0059a1;
-    --secondary: #00854b;
+:root {
+  --bg: #f7f7f7;
+  --text: #1a1a1a;
+  --primary: #0059a1;
+  --secondary: #00854b;
 }
 
 /* Import Poppins font */
 @font-face {
-    font-family: pr;
-    src: url(../fonts/pr.ttf);
+  font-family: pm;
+  src: url(../fonts/poppins-medium.ttf);
 }
 @font-face {
-    font-family: pm;
-    src: url(../fonts/pm.ttf);
+  font-family: pb;
+  src: url(../fonts/poppins-bold.ttf);
 }
 @font-face {
-    font-family: pb;
-    src: url(../fonts/pb.ttf);
+  font-family: peb;
+  src: url(../fonts/poppins-extrabold.ttf);
 }
 
 /* Initialisation du page */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg) !important;
+  font-family: pm !important;
+  height: 100%;
+}
+
+nav ul li a {
+  color: var(--text) !important;
+  font-size: 1.1rem !important;
+  font-family: pb !important;
+  padding: 0 10px !important;
+  transition: 0.3s all ease;
+}
+
+nav ul li a:hover {
+  color: var(--primary) !important;
+  transition: 0.3s all ease;
+}
+
+#sec-1 h1 {
+  font-family: peb;
+  color: var(--primary);
+  margin: 30px 30px 10px 30px;
+}
+
+#sec-1 p {
+  font-size: 1.4rem !important;
+  font-family: pb;
+  color: var(--secondary);
+  margin: -5px 0 20px 0;
+}
+
+#sec-1 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: pb;
+  background-color: var(--bg);
+  color: var(--primary);
+  border: 3px solid var(--primary);
+  border-radius: 25px;
+  padding: 2px 12px;
+  margin: 0 5px;
+  transition: 0.2s all ease;
+}
+
+#sec-1 a:hover {
+  background-color: var(--primary);
+  color: var(--bg);
+  transition: 0.2s all ease;
+}
+
+#sec-1 img {
+  object-fit: cover;
+  margin: 60px;
+  border-radius: 25px;
+}
+
+#sec-2 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sec-2 h1 {
+  font-family: pb;
+  margin: 30px 0 60px 0;
+}
+
+#sec-2 h1 i {
+  color: var(--secondary);
+}
+
+#sec-2 img {
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+#sec-2 .card {
+  transition: all ease 0.3s;
+}
+
+#sec-2 .card:hover {
+  transform: scale(0.99);
+  box-shadow: #1a1a1a 15px 15px 30px;
+  transition: all ease 0.3s;
+}
+
+#sec-2 a {
+  text-decoration: none;
+}
+
+#sec-2 .card h5 {
+  color: var(--secondary);
 }
