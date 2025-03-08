@@ -172,6 +172,10 @@ iframe{
   color: var(--secondary);
 }
 
+#send{
+  text-align: left;
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   #sec-4{
