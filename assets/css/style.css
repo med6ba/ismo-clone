@@ -57,6 +57,10 @@ main {
   flex-direction: column;
 }
 
+#sec-1{
+  margin: 40px 0;
+}
+
 #sec-1 h1 {
   font-family: peb;
   color: var(--primary);
@@ -66,7 +70,10 @@ main {
   font-size: 1.5rem !important;
   font-family: pb;
   color: var(--secondary);
-  margin-bottom: 50px;
+}
+
+#sec-1 a button {
+  margin: 10px 5px 40px 5px;
 }
 
 #sec-1 img {
