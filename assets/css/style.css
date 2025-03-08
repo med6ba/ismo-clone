@@ -104,7 +104,6 @@ footer {
 #sec-2 img {
   object-fit: cover;
   aspect-ratio: 16/9;
-  width: ;
 }
 
 #sec-2 .card {
@@ -157,4 +156,18 @@ footer {
 #sec-3 #card-fm .card-text{
   text-align: left;
   padding: 0 20px;
+}
+
+iframe{
+  border: solid 2px var(--text) !important;
+  border-radius: 8px;
+}
+
+#sec-4 h2{
+  font-family: peb;
+  color: var(--secondary);
+}
+
+input:focus textarea:focus{
+  border-color: var(--secondary) !important;
 }
