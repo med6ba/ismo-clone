@@ -37,7 +37,7 @@ nav ul li a {
   color: var(--text) !important;
   font-size: 1.1rem !important;
   font-family: pb !important;
-  padding: 6px 15px !important;
+  padding: 4px 15px !important;
   transition: 0.3s all ease;
 }
 
