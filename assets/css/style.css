@@ -58,7 +58,7 @@ main {
 }
 
 #sec-1{
-  margin: 40px 0 12px 0;
+  margin: 20px 0 12px 0;
 }
 
 #sec-1 h1 {
@@ -77,13 +77,17 @@ main {
   background-color: var(--bg);
   color: var(--text);
   border: 2px var(--text) solid;
-  border-radius: 0px;
+  border-radius: 8px;
   font-family: pb;
-  font-size: 1.2rem;
   transition: 0.2s all ease;
 }
 
 #sec-1 a button:hover{
+  color: var(--text);
+  border: 2px var(--text) solid;
+}
+
+#sec-1 a button:active{
   transform: translateY(2px);
   transition: 0.2s all ease;
 }
