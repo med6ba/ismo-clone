@@ -82,14 +82,8 @@ main {
   transition: 0.2s all ease;
 }
 
-#sec-1 a button:hover{
-  color: var(--bg);
-  border: 2px var(--primary) solid;
-  background-color: var(--primary);
-}
-
 #sec-1 a button:active{
-  transform: translateY(3px);
+  transform: translateY(2px);
   transition: 0.2s all ease;
 }
 
@@ -132,8 +126,9 @@ footer {
 
 #sec-3 .presentation {
   text-align: justify;
-  margin: 30px;
+  padding: 30px;
   font-family: pm;
+  font-size: large;
 }
 
 #sec-3 .row {
@@ -146,4 +141,15 @@ footer {
 
 #sec-3 .card img {
   object-fit: cover;
+}
+
+#sec-3 #card-fm .card-title{
+  font-family: pb;
+  color: #0059a1;
+  padding: 10px;
+}
+
+#sec-3 #card-fm .card-text{
+  text-align: left;
+  padding: 0 20px;
 }
