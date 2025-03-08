@@ -163,11 +163,25 @@ iframe{
   border-radius: 8px;
 }
 
-#sec-4 h2{
+#sec-4{
+  width: 50% !important;
+}
+
+#sec-4 h1{
   font-family: peb;
   color: var(--secondary);
 }
 
-input:focus textarea:focus{
-  border-color: var(--secondary) !important;
+/* Tablet Media Query */
+@media (max-width: 1024px) {
+  #sec-4{
+    width: 100% !important;
+  }
+}
+
+/* Mobile Media Query */
+@media (max-width: 576px) {
+  #sec-4{
+    width: 100% !important;
+  }
 }
