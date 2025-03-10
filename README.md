@@ -31,12 +31,17 @@ This repository contains a modernized clone of the <a href="https://www.ismo.ma"
 3. Open `index.html` in your browser or use a local server.
 
 ## Contributing
-
-If you want to contribute to the project, feel free to fork the repository, create a new branch, and submit a pull request.
-
-## Contact
-
-For any inquiries or suggestions, feel free to open an issue in the repository.
+If you would like to contribute:
+1. Fork the repository.
+2. Create a new branch:
+   ```sh
+   git checkout -b your-branch
+   ```
+3. Make your changes and commit:
+   ```sh
+   git commit -m "Describe your changes"
+   ```
+4. Push to your fork and create a pull request.
 
 ## License
 
