@@ -97,7 +97,6 @@ main {
 }
 
 #sec-1 img {
-  border-radius: 12px;
   aspect-ratio: 16/9 !important;
 }
 
@@ -188,6 +187,19 @@ iframe {
 
 #footer-logo{
   width: 70px;
+}
+
+footer p a:hover {
+  text-decoration: underline !important;
+}
+
+button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler{
+  border: none !important;
 }
 
 /* Tablet Media Query */
