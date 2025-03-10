@@ -198,6 +198,10 @@ button:active {
   border: none !important;
 }
 
+#progress-value{
+  cursor: pointer;
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   #sec-4 {
