@@ -21,15 +21,13 @@
   </head>
   <body class="d-flex flex-column min-h-dvh">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light shadow">
+    <nav class="navbar navbar-expand-lg bg-light shadow sticky-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img
             src="assets/images/logo.png"
             alt="Logo"
-            width="70"
-            height="70"
-            class="d-inline-block align-text-top"
+            class="logo d-inline-block align-text-top"
           />
         </a>
         <button
@@ -43,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Accueil</a>
+              <a class="nav-link" href="#sec-1">Accueil</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#sec-2">Filières</a>
@@ -66,17 +64,14 @@
       <section id="sec-1">
         <h1>Institut spécialisé dans les métiers de l'offshoring Tétouan</h1>
         <p>Le centre d'excellence</p>
-        <a href="assets/subpages/apropos.html"
+        <a href="#sec-3"
           ><button class="btn btn-primary">Plus d'infos</button></a
-        >
-        <a href="assets/subpages/contact.html"
-          ><button class="btn btn-primary">Contactez-nous</button></a
         >
         <img src="assets/images/img-1.png" class="d-block mx-auto img-fluid" />
       </section>
 
       <section id="sec-2">
-        <h1 class="mt-3 mb-4">Filières</h1>
+        <h1 class="mt-5 mb-5">Filières</h1>
         <div class="row g-4">
           <div class="col-12 col-md-6 col-lg-4">
             <a href="#">
@@ -182,7 +177,7 @@
           bloc administratif et un career center, garantissant un cadre
           d’apprentissage moderne et performant.
         </p>
-        <h1 class="mt-5">Fait marquant</h1>
+        <h1 class="mt-4">Fait marquant</h1>
         <div class="row g-4">
           <div class="col-12 col-md-6 col-lg-3">
             <div class="card shadow-sm" id="card-fm">
@@ -242,7 +237,7 @@
               <div class="card-body">
                 <h5 class="card-title">City’Zen Challenge</h5>
                 <p class="card-text">
-                  Les stagiaires de l’ISMO Tétouan ont remporté le 2ᵉ prix du
+                  Les stagiaires de l’ISMO Tétouan ont remporté le 2<sup>e</sup> prix du
                   City’Zen Challenge en 2021 et 2022, deux années consécutives.
                 </p>
               </div>
@@ -314,17 +309,6 @@
         </div>
       </section>
     </main>
-    <!-- Footer -->
-    <!-- <footer class="mt-auto bg-dark text-white d-flex">
-      
-        
-          <button id="back-to-top" class="text-white p-2 text-decoration-none">
-            <i class="fa-solid fa-circle-arrow-up"></i>
-          </button>
-        </div>
-      </div>
-    </footer> -->
-    <!-- Footer -->
     <footer class="text-center text-lg border-top text-white bg-dark">
       <section class="border-bottom">
         <div class="container text-center text-md-start mt-5">
@@ -339,12 +323,14 @@
                 &nbsp; ISMO Tétouan
               </h6>
               <p>
-                Institut de formation en digital, IT et infographie, situé à
+                Institut de formation en Digital, IA et Infographie, situé à
                 TétouanShore.
               </p>
             </div>
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">Liens</h6>
+              <p class="text-uppercase fw-bold">
+                LIENS
+              </p>
               <p>
                 <a href="#!" class="text-reset">OFPPT</a>
               </p>
