@@ -97,8 +97,8 @@ main {
 }
 
 #sec-1 img {
-  object-fit: cover;
   border-radius: 12px;
+  aspect-ratio: 16/9 !important;
 }
 
 #sec-2 {
