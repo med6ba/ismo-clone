@@ -4,7 +4,7 @@
 
 This repository contains a modernized clone of the <a href="https://www.ismo.ma">ismo.ma</a> website, which was previously outdated in design and functionality. The goal of this project is to enhance the user experience by making the website more responsive, and ensuring better performance across different browsers.
 
-<a href="https://ismo-clone.vercel.app">View DEMO</a>
+<a href="https://ismotetouan.vercel.app">View DEMO</a>
 
 ## Features
 
