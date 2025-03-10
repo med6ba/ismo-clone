@@ -32,10 +32,10 @@ This repository contains a modernized clone of the ismo.ma website, which was pr
 
 If you want to contribute to the project, feel free to fork the repository, create a new branch, and submit a pull request.
 
-## License
-
-This project is open-source and available under the MIT License.
-
 ## Contact
 
 For any inquiries or suggestions, feel free to open an issue in the repository.
+
+## License
+
+This project is open-source and available under the MIT License.
