@@ -27,7 +27,7 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-padding-top: 7rem;
 }
 
@@ -37,7 +37,7 @@ body {
   min-height: 100dvh;
 }
 
-.logo{
+.logo {
   width: 70px;
 }
 
@@ -48,7 +48,6 @@ nav ul li a {
   padding: 4px 15px !important;
   transition: 0.3s all ease;
 }
-
 
 nav ul li a:hover {
   color: var(--primary) !important;
@@ -123,7 +122,8 @@ main {
 }
 
 #sec-2 h1,
-#sec-3 h1 {
+#sec-3 h1,
+#sec-4 h1 {
   font-family: peb;
   color: var(--secondary);
 }
@@ -171,34 +171,30 @@ iframe {
   width: 70% !important;
 }
 
-#sec-4 h1 {
-  font-family: peb;
-  color: var(--secondary);
-}
-
 #send {
   text-align: left;
 }
 
-#back-to-top{
-  background-color: transparent;
-  border: none;
-}
-
-#footer-logo{
+#footer-logo {
   width: 70px;
 }
 
-footer p a:hover {
+footer a:hover {
   text-decoration: underline !important;
 }
 
-button:focus, button:active {
+input:focus,
+textarea:focus {
+  border-color: var(--secondary) !important;
+}
+
+button:focus,
+button:active {
   outline: none !important;
   box-shadow: none !important;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: none !important;
 }
 
