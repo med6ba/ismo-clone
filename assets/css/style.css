@@ -75,7 +75,7 @@ main {
 }
 
 #sec-1 p {
-  font-size: 1.5rem !important;
+  font-size: x-large !important;
   font-family: pb;
   color: var(--secondary);
 }
@@ -88,6 +88,11 @@ main {
   border-radius: 8px;
   font-family: pb;
   transition: 0.2s all ease;
+}
+
+#sec-1 a button:hover{
+  background-color: var(--primary);
+  color: var(--bg);
 }
 
 #sec-1 a button:active {
@@ -136,7 +141,8 @@ main {
   text-align: justify;
   padding: 30px;
   font-family: pm;
-  font-size: large;
+  font-size: 1.1rem;
+  line-height: 30px;
 }
 
 #sec-3 .row {
@@ -163,7 +169,6 @@ main {
 }
 
 iframe {
-  border: solid 2px var(--text) !important;
   border-radius: 8px;
 }
 
@@ -172,7 +177,7 @@ iframe {
 }
 
 #send {
-  text-align: left;
+  width: 100% !important;
 }
 
 #footer-logo {
